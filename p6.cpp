@@ -25,6 +25,7 @@ int main() {
                 }
                 i++;
             }
+            
             if(j != e) 
                 continue;
             int cnt = 0;
