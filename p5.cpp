@@ -36,7 +36,6 @@ int main() {
             }
             rslt = min(rslt, cnt + (frqs[h - 1] < e - 1 ? 1 : 0));
         }
-
        cout << (rslt == INT_MAX ? -1 : rslt) << '\n';
     }
 }
